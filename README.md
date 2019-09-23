@@ -27,7 +27,7 @@ Daniel Rubinoff and Camiel Doorenweerd
     TreeAnnotator generated final tree
 
 - BioGeoBEARS
-    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    - `20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk`:
     BEAST generated chronogram without outgroups
     - 20181003_BioGeoBears_Saturnia_DEC_J.ipynb
     Jupyter notebook with the scripts for the BGB DEC+J analyses
