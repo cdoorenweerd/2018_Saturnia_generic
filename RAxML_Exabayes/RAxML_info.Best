@@ -1,0 +1,155 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 1070 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 12.72%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 20 inferences on the original alignment using 20 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 1070
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -D -p 1234 -s 20180226_Saturnia_7Gpr4.phy -N 20 -m GTRCAT -U -T 16 -n Best 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.301 0.187 0.203 0.309 
+
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[0]: Time 1.021950 CAT-based likelihood -15516.649207, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.704453 15.452379 9.430304 1.923273 30.441669 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[1]: Time 0.997147 CAT-based likelihood -15380.899206, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.665928 14.787549 8.701715 1.717095 29.996444 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[2]: Time 0.860618 CAT-based likelihood -15406.561604, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.664680 14.483332 8.875095 1.807297 31.155275 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[3]: Time 0.858012 CAT-based likelihood -15432.162719, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.471366 14.030547 8.625953 1.715347 29.235685 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+ML search convergence criterion thorough cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[4]: Time 1.092144 CAT-based likelihood -15423.048886, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.582057 14.996945 8.968954 1.769343 29.787084 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[5]: Time 0.864099 CAT-based likelihood -15409.884123, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.496019 14.355293 8.811386 1.721209 29.837563 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+ML search convergence criterion thorough cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[6]: Time 1.120223 CAT-based likelihood -15372.601510, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.500645 14.279102 8.417443 1.673853 29.305079 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[7]: Time 0.870109 CAT-based likelihood -15397.414963, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.805023 15.268852 9.006274 1.788106 30.792183 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[8]: Time 0.800360 CAT-based likelihood -15460.693180, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.697683 13.611622 8.769755 1.825421 31.419975 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[9]: Time 0.842956 CAT-based likelihood -15496.295776, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.367905 14.024430 8.562180 1.710226 27.976778 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.133333
+Inference[10]: Time 0.883674 CAT-based likelihood -15411.626550, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.352530 13.983993 8.650042 1.592036 29.571937 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+ML search convergence criterion thorough cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[11]: Time 1.082622 CAT-based likelihood -15376.439297, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.739363 14.997874 9.049126 1.786541 32.573110 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.133333
+Inference[12]: Time 0.880753 CAT-based likelihood -15394.964979, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.752724 15.103987 9.059335 1.784853 30.993125 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[13]: Time 0.877185 CAT-based likelihood -15326.782267, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 4.347027 17.320787 9.856361 2.044929 36.565611 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[14]: Time 0.944271 CAT-based likelihood -15359.182695, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.865832 14.052403 8.326972 1.709081 32.612018 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[15]: Time 0.853033 CAT-based likelihood -15496.293801, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.365101 14.024679 8.560910 1.706613 27.956742 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[16]: Time 0.838950 CAT-based likelihood -15434.785346, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.651943 14.674279 9.101646 1.818347 30.921596 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[17]: Time 0.872446 CAT-based likelihood -15570.008164, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.241697 13.623537 8.107427 1.638564 25.634411 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.133333
+Inference[18]: Time 0.872797 CAT-based likelihood -15418.132745, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.936793 16.362005 9.970557 1.918629 35.032779 1.000000 
+ML search convergence criterion fast cycle 0->1 Relative Robinson-Foulds 0.066667
+ML search convergence criterion thorough cycle 0->1 Relative Robinson-Foulds 0.066667
+Inference[19]: Time 1.058439 CAT-based likelihood -15384.198398, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 3.559761 14.002899 8.463653 1.677414 29.419291 1.000000 
+
+
+Conducting final model optimizations on all 20 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.0
+Inference[1] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.1
+Inference[2] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.2
+Inference[3] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.3
+Inference[4] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.4
+Inference[5] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.5
+Inference[6] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.6
+Inference[7] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.7
+Inference[8] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.8
+Inference[9] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.9
+Inference[10] final GAMMA-based Likelihood: -18314.898451 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.10
+Inference[11] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.11
+Inference[12] final GAMMA-based Likelihood: -18314.898451 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.12
+Inference[13] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.13
+Inference[14] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.14
+Inference[15] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.15
+Inference[16] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.16
+Inference[17] final GAMMA-based Likelihood: -18314.676876 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.17
+Inference[18] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.18
+Inference[19] final GAMMA-based Likelihood: -18314.898450 tree written to file /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_result.Best.RUN.19
+
+
+Starting final GAMMA-based thorough Optimization on tree 1 likelihood -18314.676876 .... 
+
+Final GAMMA-based Score of best tree -18314.676876
+
+Program execution info written to /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_info.Best
+Best-scoring ML tree written to: /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_bestTree.Best
+
+Overall execution time: 19.055769 secs or 0.005293 hours or 0.000221 days
+

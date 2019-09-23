@@ -1,0 +1,11 @@
+#NEXUS
+
+begin taxa;
+  dimensions ntax=18;
+  taxlabels AF373932_Copaxa_multifenestrata AF373946_Neoris_naessigi 06SRNP18006_Arsenura_armida act16_Caligula_jonasii act18_Caligula_boisduvalii act20_Agapema_dyari_Texas jbt09_Agapema_anona_Whetestone act21_Saturnia_pavoniella_Italy cg03_Saturnia_pyretorum_China cjo03_Calosaturnia_walterorum_SanDiego jw35_Calosaturnia_albofasciata_Shasta jw42_Calosaturnia_mendocino_Shasta jbt14_Saturnia_pyri_Greece jbt21_Agapema_homogena_Pima jw41_Aglia_tau jw47_Saturnia_pavonia_England NW2010_Salassa_sp PC1_Perisomena_caecigena;
+end;
+
+begin trees;
+  tree t0 = [&U] (((((cjo03_Calosaturnia_walterorum_SanDiego:0.006344, jw42_Calosaturnia_mendocino_Shasta:0.00695124)100/1.00:0.013193, jw35_Calosaturnia_albofasciata_Shasta:0.0249133)100/1.00:0.0165811, ((jbt14_Saturnia_pyri_Greece:0.0203376, ((act21_Saturnia_pavoniella_Italy:0.00228543, jw47_Saturnia_pavonia_England:0.00413709)100/1.00:0.0164399, cg03_Saturnia_pyretorum_China:0.0222426)84/0.99:0.00279507)100/1.00:0.0124173, ((act20_Agapema_dyari_Texas:0.00745919, jbt09_Agapema_anona_Whetestone:0.00434909)100/1.00:0.0181694, jbt21_Agapema_homogena_Pima:0.0254948)100/1.00:0.0222705)87/1.00:0.00575033)42/0.70:0.00171039, (PC1_Perisomena_caecigena:0.0456102, (act16_Caligula_jonasii:0.0217336, act18_Caligula_boisduvalii:0.0290372)100/1.00:0.014737)41/0.63:0.00241932)66/1.00:0.0154966, (AF373932_Copaxa_multifenestrata:0.0384665, (NW2010_Salassa_sp:0.0802489, (jw41_Aglia_tau:0.12575, 06SRNP18006_Arsenura_armida:0.0764905)56/0.98:0.0144901)99/1.00:0.033065)50/0.87:0.00988578, AF373946_Neoris_naessigi:0.0194646);
+end;
+

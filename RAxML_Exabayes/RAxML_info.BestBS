@@ -1,0 +1,47 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.11 released by Alexandros Stamatakis on June 2017.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.Bootstraps onto tree in file RAxML_bestTree.Best
+
+
+RAxML was called as follows:
+
+raxmlHPC -f b -t RAxML_bestTree.Best -z RAxML_bootstrap.Bootstraps -m GTRCAT -T 16 -n BestBS 
+
+
+
+
+Found 1 tree in File RAxML_bestTree.Best
+
+
+
+Found 300 trees in File RAxML_bootstrap.Bootstraps
+
+
+
+Found 1 tree in File RAxML_bestTree.Best
+
+
+
+Time for Computation of Bipartitions 0.093811
+Tree with bipartitions written to file:  /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_bipartitions.BestBS
+Tree with bipartitions as branch labels written to file:  /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_bipartitionsBranchLabels.BestBS
+Execution information file written to :  /home/ubuntu/20180307_Saturnia_raxml_exabayes/RAxML_info.BestBS
