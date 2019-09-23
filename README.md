@@ -1,4 +1,4 @@
-# 2018_Saturnia_generic
+DOI: ()[badgeimage]
 
 Repository with the data and scripts used for the Journal of Biogeography paper:
 
@@ -6,8 +6,52 @@ Repository with the data and scripts used for the Journal of Biogeography paper:
 
 Daniel Rubinoff and Camiel Doorenweerd
 
+### Repository content index:
+
+- RAxML_Exabayes
+    - 20180226_Saturnia7Gpr4.nex
+    Input alignment in nexus format
+    - 20180226_Saturnia7Gpr4.phy
+    Input alignment in phylip format
+    - combine.py
+    Python P4 package script to combine ML and Bayesian support values
+    - combinedSupportsTree.nex.tre
+    Nexus formatted output tree, used for Figure 2.
+
+- BEAST
+    - 20180613_Saturnia_BEAST1.xml
+    BEAUTI formatted XML input file
+    - 20180314_Saturnia_inclBOLDpr1NN.log
+    Analysis log file
+    - finaltree.tre
+    TreeAnnotator generated final tree
+
+- BioGeoBEARS
+    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    BEAST generated chronogram without outgroups
+    - 20181003_BioGeoBears_Saturnia_DEC_J.ipynb
+    Jupyter notebook with the scripts for the BGB DEC+J analyses
+    - 20181003_BioGeoBears_Saturnia_DEC.ipynb
+    Jupyter notebook with the scripts for the BGB DEC analyses
+
+- RevBayes_3area
+    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    BEAST generated chronogram without outgroups
+    - Three-area DEC.ipynb
+    Jupyter notebook with the scripts for RevBayes 3-area scenario DEC analysis
+    - plot_ancestral_range_tree.R
+    R script to plot output tree
+
+- RevBayes_5area
+    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    BEAST generated chronogram without outgroups
+    - Five-area DEC.ipynb
+   Jupyter notebook with the scripts for RevBayes 5-area scenario DEC analysis
+    - plot_ancestral_range_tree_5area.R
+    R script to plot output tree
 
 ### ABSTRACT
+
 #### Aim
 There is growing evidence that the North Atlantic Land Bridge may have had a significant, underappreciated, role in structuring northern hemispheric biodiversity. Understanding the biogeography of less vagile animals with specific habitat requirements could provide fine-scale information about the duration and environmental conditions of both the North Atlantic Land Bridge and the Bering Land Bridge.
 
