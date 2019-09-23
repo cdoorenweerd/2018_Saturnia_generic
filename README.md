@@ -1,6 +1,6 @@
 ![Github Image](githubimg.png)
 
-DOI: [](badgeimage.png)
+DOI: ![badge](zenodo.3458590.png)
 
 Repository with the data and scripts used for the Journal of Biogeography paper:
 
