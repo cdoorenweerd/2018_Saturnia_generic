@@ -11,45 +11,45 @@ Daniel Rubinoff and Camiel Doorenweerd
 ### Repository content index:
 
 - RAxML_Exabayes
-    - 20180226_Saturnia7Gpr4.nex
+    - `20180226_Saturnia7Gpr4.nex`:
     Input alignment in nexus format
-    - 20180226_Saturnia7Gpr4.phy
+    - `20180226_Saturnia7Gpr4.phy`:
     Input alignment in phylip format
-    - combine.py
+    - `combine.py`:
     Python P4 package script to combine ML and Bayesian support values
-    - combinedSupportsTree.nex.tre
+    - `combinedSupportsTree.nex.tre`:
     Nexus formatted output tree, used for Figure 2.
 
 - BEAST
-    - 20180613_Saturnia_BEAST1.xml
+    - `20180613_Saturnia_BEAST1.xml`:
     BEAUTI formatted XML input file
-    - 20180314_Saturnia_inclBOLDpr1NN.log
+    - `20180314_Saturnia_inclBOLDpr1NN.log`:
     Analysis log file
-    - finaltree.tre
+    - `finaltree.tre`:
     TreeAnnotator generated final tree
 
 - BioGeoBEARS
     - `20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk`:
     BEAST generated chronogram without outgroups
-    - 20181003_BioGeoBears_Saturnia_DEC_J.ipynb
+    - `20181003_BioGeoBears_Saturnia_DEC_J.ipynb`:
     Jupyter notebook with the scripts for the BGB DEC+J analyses
-    - 20181003_BioGeoBears_Saturnia_DEC.ipynb
+    - `20181003_BioGeoBears_Saturnia_DEC.ipynb`:
     Jupyter notebook with the scripts for the BGB DEC analyses
 
 - RevBayes_3area
-    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    - `20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk`:
     BEAST generated chronogram without outgroups
-    - Three-area DEC.ipynb
+    - `Three-area DEC.ipynb`:
     Jupyter notebook with the scripts for RevBayes 3-area scenario DEC analysis
-    - plot_ancestral_range_tree.R
+    - `plot_ancestral_range_tree.R`:
     R script to plot output tree
 
 - RevBayes_5area
-    - 20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk
+    - `20180606_Saturnia_BEAST_constrained2_ingroup_nocopaxa.nwk`:
     BEAST generated chronogram without outgroups
-    - Five-area DEC.ipynb
+    - `Five-area DEC.ipynb`:
    Jupyter notebook with the scripts for RevBayes 5-area scenario DEC analysis
-    - plot_ancestral_range_tree_5area.R
+    - `plot_ancestral_range_tree_5area.R`:
     R script to plot output tree
 
 ### ABSTRACT
